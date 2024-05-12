@@ -10,3 +10,9 @@
 - [x] GSMaP -> NetCDF
 - [ ] GSMaP -> GeoTIFF
 
+
+##### ANUSPLIN
+- [x] FLT -> NetCDF
+- [x] NC PLOT
+- [ ] FLT -> GeoTIFF
+
