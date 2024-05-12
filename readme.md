@@ -7,8 +7,8 @@
 ### 已经实现的功能
 
 #### GSMaP 
-- [x] GSMaP -> NetCDF
-- [ ] GSMaP -> GeoTIFF
+- [x] DAT -> NetCDF
+- [ ] DAT -> GeoTIFF
 
 
 ##### ANUSPLIN
@@ -16,3 +16,6 @@
 - [x] NC PLOT
 - [ ] FLT -> GeoTIFF
 
+##### -
+- [ ] NetCDF -> GeoTIFF
+- [ ] GeoTIFF -> NetCDF
