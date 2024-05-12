@@ -16,6 +16,11 @@
 - [x] NC PLOT
 - [ ] FLT -> GeoTIFF
 
-##### -
+
+##### VIC model
+- [ ] OUTPUT Fluxes -> NetCDF
+
+
+##### Others
 - [ ] NetCDF -> GeoTIFF
 - [ ] GeoTIFF -> NetCDF
