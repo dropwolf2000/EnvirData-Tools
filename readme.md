@@ -18,7 +18,7 @@
 
 
 ##### VIC model
-- [ ] OUTPUT Fluxes -> NetCDF
+- [x] OUTPUT Fluxes -> NetCDF
 
 
 ##### Others
