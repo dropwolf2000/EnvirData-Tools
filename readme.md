@@ -17,7 +17,7 @@
 
 ### ANUSPLIN
 - [x] FLT to NetCDF
-- [ ] FLT to Compressed GeoTIFF
+- [x] FLT to Compressed GeoTIFF
     - **PLOT**
       - [x] NC PLOT
 
