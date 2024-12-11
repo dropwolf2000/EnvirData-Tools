@@ -74,9 +74,10 @@ def flt_to_compressedTif(flt_file, output_tif):
 if __name__ == '__main__':
 
     input = Path(r'D:\PROJECTS\PRECIPITATION_CLASSIFY\PrecipitaionQueryResult_V3_yearly\anu\r3\data\output')
+    output = Path(r'D:\PROJECTS\PRECIPITATION_CLASSIFY\PrecipitaionQueryResult_V3_yearly\anu\r3\data\tif')
 
     for f in input.glob('*.flt'):
-        output_tif = str(Path(r'D:\PROJECTS\PRECIPITATION_CLASSIFY\PrecipitaionQueryResult_V3_yearly\anu\r3\data\tif').joinpath(f.stem + '.tif'))
+        output_tif = str(output.joinpath(f.stem + '.tif'))
 
         if flt_to_compressedTif(str(f), output_tif):
             print(f'[ INFO ] {os.path.basename(f)}')

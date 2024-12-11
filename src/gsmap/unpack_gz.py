@@ -32,7 +32,7 @@ def batch_extract_gz_files(input_dir, output_dir):
 if __name__ == '__main__':
 
     # 使用示例
-    input_dir = r'I:\SHARE\GSMaP\realtime\v8_daily0.1'  # 输入目录，存放gz文件的目录
-    output_dir = r'D:\TEMP\gsmap'  # 输出目录，存放解压缩后的文件的目录
+    input_dir = r'D:\TEMP\gsmap\origin\realtime\v8_daily0.1'  # 输入目录，存放gz文件的目录
+    output_dir = r'D:\TEMP\gsmap\output'  # 输出目录，存放解压缩后的文件的目录
 
     batch_extract_gz_files(input_dir, output_dir)
